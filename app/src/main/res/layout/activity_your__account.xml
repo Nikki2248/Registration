@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rocket.myapplication1.Your_Account"
+    android:orientation="vertical"
+    android:background="@drawable/download"
+    android:weightSum="8">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feedback Form"
+            android:id="@+id/drive"
+            android:textSize="34sp"
+            android:gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/White"
+            >
+
+        </TextView>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How was your experience with the app?"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        />
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="good"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton1"
+        android:textSize="20dp"
+        android:text="bad"
+        android:layout_marginTop="10dp"
+
+
+        />
+</RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How was the performance of the app?"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:id="@+id/radioButton2"
+        android:textSize="20dp"
+        android:text="fast"
+        android:layout_marginTop="10dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiobutton3"
+        android:textSize="20dp"
+        android:text="slow"
+        android:layout_marginTop="10dp"/>
+</RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:background="@color/LightSalmon"
+        android:text="SUBMIT"
+        android:textSize="20dp"
+        android:textColor="@color/White"/>
+
+</LinearLayout>

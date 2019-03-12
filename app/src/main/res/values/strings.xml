@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Myapplication1</string>
+    <string name="editText">Email</string>
+    <string name="editText2">Password</string>
+    <string name="button">LOGIN</string>
+    <string name="text2">Signup</string>
+    <string name="text1">Need Account?</string>
+    <string name="button1">SIGNUP</string>
+    <string name="title_activity_user_list">UserListActivity</string>
+</resources>
